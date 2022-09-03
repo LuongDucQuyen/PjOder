@@ -1,0 +1,39 @@
+.headder-container{
+    padding: 36px 36px 0px 36px;
+    display: flex;
+    justify-content: space-between;
+    height: 49px;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+}
+.headder-logo{
+    display: flex;
+    align-items: center;
+}
+.headder-logo h1{
+    color: white;
+    padding-left: 10px;
+}
+.headder-MenuGroup{
+    display: flex;
+    align-items: center;
+}
+.headder-MenuIcon{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    padding-right: 13px;
+    border-right: 3px solid white;
+    margin-right: 10px;
+}
+.headder-MenuGroup button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
